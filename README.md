@@ -1,2 +1,2 @@
-Practice Repisotory
-README todo
+
+sgf
