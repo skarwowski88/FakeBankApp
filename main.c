@@ -20,6 +20,10 @@ void WrittenMenu(){
         menuHead,
         prompt
     };
+
+    for(int i = 0; i<10; i++){
+        prinf("%s\n", menuList[i]);
+    }
 }
 
 int menu(){
