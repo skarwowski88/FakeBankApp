@@ -22,7 +22,7 @@ void WrittenMenu(){
     };
 
     for(int i = 0; i<10; i++){
-        prinf("%s\n", menuList[i]);
+        printf("%s\n", menuList[i]);
     }
 }
 
