@@ -20,6 +20,10 @@ void WrittenMenu(){
         menuHead,
         prompt
     };
+
+    for(int i = 0; i<10; i++){
+        printf("%s\n", menuList[i]);
+    }
 }
 
 int menu(){
@@ -29,19 +33,19 @@ int menu(){
         WrittenMenu();
         scanf("%d", &response);
         if(response == 1){
-            printf("chosen option 1");
+            printf("chosen option 1\n");
         }
 
         if(response == 2){
-            printf("chosen option 2");
+            printf("chosen option 2\n");
         }
 
         if(response == 3){
-            printf("chosen option 3");
+            printf("chosen option 3\n");
         }
 
         if(response == 4){
-            printf("chosen option 4");
+            printf("chosen option 4\n");
         }
 
         if(response == 5){
